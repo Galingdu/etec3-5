@@ -1,0 +1,527 @@
+
+/* Phone -----------------------------------------------------*/
+@media (max-width:767px) {
+    footer .footer-icon{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 40px;
+      
+    }
+    .footer-icon img{
+        width: 18px;
+        object-fit: contain;
+    }
+    footer p{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 11px;
+        color: rgba(0, 0, 0, 0.354);
+    }
+    .btn_downlaod button{
+        padding: 6px 8px;
+        border-radius: 5px;
+        border: 2px solid rgb(34, 129, 245);
+        background-color:rgb(34, 129, 245);
+        color: white;
+        font-size: 12px;
+        &:hover{
+            background-color:rgba(34, 129, 245, 0.896);
+            border: 2px solid rgb(34, 129,245, 0.866);
+        }
+    }
+    main .hero{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .profile{
+        margin-top: 7px;
+        width: 100%;
+        height: 50%;
+        padding: 0px 10px;
+    }
+    .hero .txt-content{
+        margin-top: 10px;
+        width: 100%;
+        height: 50%;
+        text-align:center;
+        padding: 0px 50px;
+        
+    }
+    .txt-content h3{
+        font-size: 28px;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .txt-content p{
+        font-size: 12px;
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+    .profile .logo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+    }
+    .logo .border{
+        width: 205px;
+        height: 205px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border: 5px solid rgb(34, 129, 245);;
+    }
+    .border img{
+        border: 4px solid rgb(255, 255, 255);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .view a{
+        color: black;
+    }
+    .view{
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .main-box{
+        margin-top: 15px;
+        background-color:rgba(9, 111, 235, 0.329);
+        width: 100%;
+        padding: 15px 30px;
+    }
+    .main-box .backend{
+        background-color: rgba(255, 255, 255, 0.715);
+        width: 100%;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .main-box .frontend{
+        background-color: rgba(255, 255, 255, 0.715);
+        width: 100%;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .main-box .frontend ,.main-box .backend {
+        text-align: start;
+    }
+    .main-box .frontend h5 ,.main-box .backend h5 {
+        font-size: 11px;
+        font-weight: 300;
+        margin: 10px 0px;
+    }
+    .main-box .frontend h3 ,.main-box .backend h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .main-box .frontend p ,.main-box .backend p {
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 16px;
+        color: rgba(0, 0, 0, 0.628);
+    }
+    .feature_work{
+        width: 100%;
+        padding: 0px 25px;
+       
+    }
+    .feature_box{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .feature_content h3,.feature_content p{
+        text-align: start;
+    }
+    .feature_work img{
+        margin: 10px 0px;
+    }
+    .feature_content .dashboard{
+        display: flex;
+        gap: 20px;
+        justify-content:start;
+        align-items: center;
+    }
+    .feature_content{
+        margin-bottom: 10px;
+    }
+    .feature_content p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* Ipad-----------------------------------------------------*/
+@media (min-width:766px) {
+    .btn_downlaod button{
+        padding: 8px 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(34, 129, 245);
+        background-color:rgb(34, 129, 245);
+        color: white;
+        font-size: 14px;
+        &:hover{
+            background-color:rgba(34, 129, 245, 0.896);
+            border: 2px solid rgb(34, 129,245, 0.866);
+        }
+
+    }
+    main .hero{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 10px 0px;
+    }
+    .hero .profile{
+        width: 50%;
+    }
+    .hero .txt-content{
+        width: 50%;
+        text-align: start;
+        padding-right: 80px;
+    }
+    .txt-content h3{
+        font-size: 34px;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+    .txt-content p{
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 18px;
+        color: black;
+    }
+    .profile .logo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .logo .border{
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border: 8px solid rgb(34, 129, 245);
+    }
+    .border img{
+        border: 6px solid rgb(255, 255, 255);
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .view a{
+        color: black;
+    }
+    .view{
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom:20px ;
+    }
+    .box_text{
+        display: flex;
+        gap: 30px;
+    }
+    .main-box{
+        margin-top: 20px;
+        background-color:rgba(9, 111, 235, 0.329);
+        width: 100%;
+        padding: 20px 50px;
+    }
+    .main-box .backend{
+        background-color: rgba(255, 255, 255, 0.715);
+        width: 50%;
+        padding: 30px 30px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .main-box .frontend{
+        background-color: rgba(255, 255, 255, 0.715);
+        width: 50%;
+        padding: 30px 26px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .main-box .frontend ,.main-box .backend {
+        text-align: start;
+    }
+    .main-box .frontend h5 ,.main-box .backend h5 {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 13px 0px;
+    }
+    .main-box .frontend h3 ,.main-box .backend h3 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .main-box .frontend p ,.main-box .backend p {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.628);
+        line-height: 23px;
+    }
+    .feature_box{
+        width: 100%;
+        padding: 10px 35px;
+        text-align: center;
+    }
+    .feature_box h5{
+        font-size: 24px;
+    }
+    .feature_work{
+        display: flex;
+        gap: 20px;
+        padding: 15px 0px;
+        width: 100%;
+    }
+    .feature_content h3{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .feature_content h3,.feature_content p{
+        text-align: start;
+    }
+    .feature_work img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .feature_work .img{
+        width: 50%;
+       padding: 0px 8px;
+    }
+    .feature_content .dashboard{
+        display: flex;
+        gap: 20px;
+        justify-content:start;
+        align-items: center;
+        margin: 12px 0px;}
+    .feature_content{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px 20px;
+    }
+    .feature_content p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    footer .footer-icon{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 45px;
+      
+    }
+    footer p{
+        text-align: center;
+        margin-bottom: 30px;
+        color: rgba(0, 0, 0, 0.553);
+    }
+}
+
+/* PC -----------------------------------------------------*/
+@media (min-width:1279px) {
+    .btn_downlaod button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 3px solid rgb(34, 129, 245);
+        background-color:rgb(34, 129, 245);
+        color: white;
+        font-size: 14px;
+        &:hover{
+            background-color:rgba(34, 129, 245, 0.896);
+            border: 3px solid rgb(34, 129,245, 0.866);
+        }
+
+    }
+    main .hero{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .hero .profile{
+        width: 45%;
+        padding-right: 40px;
+    }
+    .hero .txt-content{
+        width: 55%;
+        text-align: start;
+        padding-right: 100px;
+    }
+    .txt-content h3{
+        font-size: 50px;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+    .txt-content p{
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 32px;
+    }
+    .profile .logo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .logo .border{
+        width: 390px;
+        height: 390px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border: 10px solid rgb(34, 129, 245);
+    }
+    .border img{
+        border: 8px solid rgb(255, 255, 255);
+        width: 380px;
+        height: 380px;
+        border-radius: 50%;
+    }
+    .view a{
+        color: black;
+    }
+    .view{
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+    }
+    .box_text{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-box{
+        margin-top: 30px;
+        background-color:rgba(9, 111, 235, 0.329);
+        width: 100%;
+        padding: 20px 50px;
+        line-height: 40px;
+    }
+    .main-box .backend{
+        background-color: rgba(255, 255, 255, 0.715);
+        width: 50%;
+        padding: 30px 35px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    .main-box .frontend{
+        background-color: rgba(255, 255, 255, 0.715);
+        width: 50%;
+        padding: 30px 35px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    .main-box .frontend ,.main-box .backend {
+        text-align: start;
+    }
+    .main-box .frontend h5 ,.main-box .backend h5 {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 10px 0px;
+    }
+    .main-box .frontend h3 ,.main-box .backend h3 {
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .main-box .frontend p ,.main-box .backend p {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.628);
+        line-height: 28px;
+    }
+    
+    .feature_box{
+        width: 100%;
+        padding: 10px 30px;
+        text-align: center;
+    }
+    .feature_box h5{
+        font-size: 24px;
+    }
+    .feature_work{
+        display: flex;
+        gap: 10px;
+        padding: 15px 15px;
+        width: 100%;
+    }
+    .feature_content h3{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .feature_content h3,.feature_content p{
+        text-align: start;
+    }
+    .feature_work .img{
+        margin: 10px 0px;
+        width: 50%;
+        padding-left: 20px;
+    }
+    .feature_work img{
+        width: 90%;
+        height: 85%;
+        object-fit: cover;
+        
+    }
+    .feature_content .dashboard{
+        display: flex;
+        gap: 30px;
+        justify-content:start;
+        align-items: center;
+        margin: 25px 0px;
+    }
+    .feature_content{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 20px 0px;
+        padding-right:90px;
+    }
+    .feature_content p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    footer .footer-icon{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        margin-bottom: 15px;
+      
+    }
+    footer p{
+        text-align: center;
+        margin-bottom: 30px;
+        color: rgba(0, 0, 0, 0.553);
+    }
+}
+
+

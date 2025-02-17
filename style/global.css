@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media(min-width:767px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media (max-width:766) {
+    .container{
+        width: 100%;
+        height: 100%;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

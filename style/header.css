@@ -1,0 +1,87 @@
+
+@media (min-width:768px) {
+    
+nav .menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content:end;
+    list-style: none;
+    padding: 10px 35px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+.menu li{
+    position: relative;
+}
+.menu li::before{
+    content: "";
+    text-decoration: none;
+    position: absolute;
+    background-color: rgb(34, 129, 245);
+    width: 99%;
+    height: 0;
+    right: 0;
+    bottom: -4px;
+    transition: 0.1s ease-in-out;
+
+}
+.menu li:hover::before{
+    height: 10%;
+}
+}
+@media (min-width:1279px) {
+    
+nav .menu{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content:end;
+    list-style: none;
+    padding: 15px 90px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+}
+.menu li{
+    position: relative;
+}
+.menu li::before{
+    content: "";
+    text-decoration: none;
+    position: absolute;
+    background-color: rgb(34, 129, 245);
+    width: 100%;
+    height: 0;
+    right: 0;
+    bottom: -4px;
+    transition: 0.1s ease-in-out;
+
+}
+.menu li:hover::before{
+    height: 10%;
+}
+}
+@media (max-width:767px) {
+    
+nav .menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+    margin: 10px 0px
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+}
